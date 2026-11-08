@@ -1,0 +1,13 @@
+App(
+    appid="mic_recorder",
+    name="Mic Recorder",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="mic_recorder_app",
+    sources=["mic_recorder.c"],
+    stack_size=4 * 1024,
+    requires=["gui", "storage"],
+    fap_category="GPIO",
+    fap_icon="mic_icon.png",
+    fap_version="1.0",
+    fap_description="Records audio from an ESP32 microphone module and saves WAV files to the SD card",
+)

@@ -1,0 +1,12 @@
+dist/
+.ufbt/
+build/
+.vscode/
+__pycache__/
+*.pyc
+*.bak
+# KiCad backups and locks
+*-backups/
+*.kicad_prl
+fp-info-cache
+~*
